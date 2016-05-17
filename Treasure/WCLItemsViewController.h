@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WCLItemsViewController.h
 //  Treasure
 //
 //  Created by Lv on 16/5/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WCLItemsViewController : UITableViewController
 
 @end
-

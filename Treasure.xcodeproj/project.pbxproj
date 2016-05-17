@@ -7,27 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A912E08B1CE1FCE8009125D2 /* WCLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A912E08A1CE1FCE8009125D2 /* WCLDetailViewController.m */; };
+		A913F66C1CE0A6BD007334D8 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A913F66B1CE0A6BD007334D8 /* HeaderView.xib */; };
 		A9234A191CDD9376008C163B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A181CDD9376008C163B /* main.m */; };
 		A9234A1C1CDD9376008C163B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A1B1CDD9376008C163B /* AppDelegate.m */; };
-		A9234A1F1CDD9376008C163B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A1E1CDD9376008C163B /* ViewController.m */; };
 		A9234A221CDD9376008C163B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9234A201CDD9376008C163B /* Main.storyboard */; };
 		A9234A251CDD9376008C163B /* Treasure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9234A231CDD9376008C163B /* Treasure.xcdatamodeld */; };
 		A9234A271CDD9376008C163B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9234A261CDD9376008C163B /* Assets.xcassets */; };
 		A9234A2A1CDD9376008C163B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9234A281CDD9376008C163B /* LaunchScreen.storyboard */; };
+		A9234A331CDD9618008C163B /* WCLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A321CDD9618008C163B /* WCLItem.m */; };
+		A9234A361CDDA066008C163B /* WCLItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A351CDDA066008C163B /* WCLItemsViewController.m */; };
+		A9234A391CDDA0CC008C163B /* WCLItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A9234A381CDDA0CC008C163B /* WCLItemStore.m */; };
+		A96058DE1CE582D300E9C8B1 /* WCLImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A96058DD1CE582D300E9C8B1 /* WCLImageStore.m */; };
+		A9EF86001CE7452300657B09 /* WCLItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF85FF1CE7452300657B09 /* WCLItemCell.m */; };
+		A9EF86021CE7456900657B09 /* WCLItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EF86011CE7456900657B09 /* WCLItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A912E0891CE1FCE8009125D2 /* WCLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLDetailViewController.h; sourceTree = "<group>"; };
+		A912E08A1CE1FCE8009125D2 /* WCLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLDetailViewController.m; sourceTree = "<group>"; };
+		A913F66B1CE0A6BD007334D8 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		A9234A141CDD9376008C163B /* Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9234A181CDD9376008C163B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9234A1A1CDD9376008C163B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9234A1B1CDD9376008C163B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9234A1D1CDD9376008C163B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9234A1E1CDD9376008C163B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9234A211CDD9376008C163B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9234A241CDD9376008C163B /* Treasure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Treasure.xcdatamodel; sourceTree = "<group>"; };
 		A9234A261CDD9376008C163B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9234A291CDD9376008C163B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9234A2B1CDD9376008C163B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9234A311CDD9618008C163B /* WCLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLItem.h; sourceTree = "<group>"; };
+		A9234A321CDD9618008C163B /* WCLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLItem.m; sourceTree = "<group>"; };
+		A9234A341CDDA066008C163B /* WCLItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLItemsViewController.h; sourceTree = "<group>"; };
+		A9234A351CDDA066008C163B /* WCLItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLItemsViewController.m; sourceTree = "<group>"; };
+		A9234A371CDDA0CC008C163B /* WCLItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLItemStore.h; sourceTree = "<group>"; };
+		A9234A381CDDA0CC008C163B /* WCLItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLItemStore.m; sourceTree = "<group>"; };
+		A96058DC1CE582D300E9C8B1 /* WCLImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLImageStore.h; sourceTree = "<group>"; };
+		A96058DD1CE582D300E9C8B1 /* WCLImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLImageStore.m; sourceTree = "<group>"; };
+		A9EF85FE1CE7452300657B09 /* WCLItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLItemCell.h; sourceTree = "<group>"; };
+		A9EF85FF1CE7452300657B09 /* WCLItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLItemCell.m; sourceTree = "<group>"; };
+		A9EF86011CE7456900657B09 /* WCLItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCLItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +81,20 @@
 			children = (
 				A9234A1A1CDD9376008C163B /* AppDelegate.h */,
 				A9234A1B1CDD9376008C163B /* AppDelegate.m */,
-				A9234A1D1CDD9376008C163B /* ViewController.h */,
-				A9234A1E1CDD9376008C163B /* ViewController.m */,
+				A9234A311CDD9618008C163B /* WCLItem.h */,
+				A9234A321CDD9618008C163B /* WCLItem.m */,
+				A9234A371CDDA0CC008C163B /* WCLItemStore.h */,
+				A9234A381CDDA0CC008C163B /* WCLItemStore.m */,
+				A96058DC1CE582D300E9C8B1 /* WCLImageStore.h */,
+				A96058DD1CE582D300E9C8B1 /* WCLImageStore.m */,
+				A9234A341CDDA066008C163B /* WCLItemsViewController.h */,
+				A9234A351CDDA066008C163B /* WCLItemsViewController.m */,
+				A9EF85FE1CE7452300657B09 /* WCLItemCell.h */,
+				A9EF85FF1CE7452300657B09 /* WCLItemCell.m */,
+				A9EF86011CE7456900657B09 /* WCLItemCell.xib */,
+				A912E0891CE1FCE8009125D2 /* WCLDetailViewController.h */,
+				A912E08A1CE1FCE8009125D2 /* WCLDetailViewController.m */,
+				A913F66B1CE0A6BD007334D8 /* HeaderView.xib */,
 				A9234A201CDD9376008C163B /* Main.storyboard */,
 				A9234A261CDD9376008C163B /* Assets.xcassets */,
 				A9234A281CDD9376008C163B /* LaunchScreen.storyboard */,
@@ -142,6 +173,8 @@
 				A9234A2A1CDD9376008C163B /* LaunchScreen.storyboard in Resources */,
 				A9234A271CDD9376008C163B /* Assets.xcassets in Resources */,
 				A9234A221CDD9376008C163B /* Main.storyboard in Resources */,
+				A9EF86021CE7456900657B09 /* WCLItemCell.xib in Resources */,
+				A913F66C1CE0A6BD007334D8 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9EF86001CE7452300657B09 /* WCLItemCell.m in Sources */,
+				A96058DE1CE582D300E9C8B1 /* WCLImageStore.m in Sources */,
 				A9234A251CDD9376008C163B /* Treasure.xcdatamodeld in Sources */,
-				A9234A1F1CDD9376008C163B /* ViewController.m in Sources */,
+				A9234A391CDDA0CC008C163B /* WCLItemStore.m in Sources */,
+				A9234A361CDDA066008C163B /* WCLItemsViewController.m in Sources */,
+				A9234A331CDD9618008C163B /* WCLItem.m in Sources */,
+				A912E08B1CE1FCE8009125D2 /* WCLDetailViewController.m in Sources */,
 				A9234A1C1CDD9376008C163B /* AppDelegate.m in Sources */,
 				A9234A191CDD9376008C163B /* main.m in Sources */,
 			);
@@ -267,10 +305,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Treasure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.Treasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,10 +318,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Treasure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wcl.Treasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -304,6 +346,7 @@
 				A9234A301CDD9376008C163B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
